@@ -38,7 +38,7 @@ found_items = soup(text=pattern)
 
 found_text = False
 
-if len(found_items) is not 0:
+if len(found_items) != 0:
     found_text = True
 
 print(f"Found text: {found_text}")
